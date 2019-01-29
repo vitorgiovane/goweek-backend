@@ -7,7 +7,7 @@ const server = require('http').Server(app)
 const io = require('socket.io')(server)
 
 
-mongoose.connect('mongodb://vitorgiovane:vtr13pix=857@ds155213.mlab.com:55213/vitorgiovane',{
+mongoose.connect('mongodb://username:password@url:port/username',{
   useNewUrlParser: true
 })
 
